@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My articles</title>
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS personal -->
+    <link href="css/estilos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!--header class="fixed-top bg-white pt-3"-->
+        <div class="col-12 col-lg-3 text-center text-lg-start">
+            <h2 class="titulo d-inline">Carlos Iñiguez</h2>
+        </div>
+        <div class="col-12 col-lg-9 text-center text-lg-end">
+            <!--span class="float-end me-5"-->
+            <ul class="list-inline">
+                <li class="list-inline-item "><a class="menu" href="index.html">about me</a></li>
+                <li class="list-inline-item "><a class="menu" href="publications.html">my articles</a></li>
+                <!--li class="list-inline-item "><a class="menu" href="research.html">research in progress</a></li-->
+                <!--li class="list-inline-item "><a class="menu" href="experience.html">experience</a></li-->
+            </ul>
+            <!--/span-->
+        </div>
+        <div style="height: 6px; background-color: #E6E4E4;"> </div>
+        <!--/header-->
+    </div>
+
+
+
+    <div class="row pt-3">
+        <div class="col-12 col-lg-3">
+            <div id="carta" class="p-3 ms-4 mb-4 bg-white text-center d-none d-lg-block">
+                <img src="img/fotoPerfil2.jpg" alt="carlos iniguez" class="img-fluid rounded-circle" width="157px">
+                <div class="color3 mt-2">Researcher at <br> Escuela Politénica Nacional</div>
+                <div class="mt-2 mb-2">ORCID: 0000-0003-1338-7542</div>
+                <div class="ms-2 me-2" style="background-color:#E6E4E4;width: 80%;height: 4px;"></div>
+                <h2 class="menu mt-4 mb-3">Contact me</h2>
+
+
+                <span class="me-3">
+                    <a href="mailto:carlos.iniguez@epn.edu.ec" target="_blank"><i class='bx bxs-envelope bx-sm'></i></a>
+                </span>
+                <span class="me-3">
+                    <a href="https://twitter.com/piposenior" target="_blank"><i class='bx bxl-twitter bx-sm'></i></a>
+                </span>
+                <span class="me-3">
+                    <a href="http://linkedin.com/in/carlos-iñiguez-58843658" target="_blank"><i
+                            class='bx bxl-linkedin-square bx-sm'></i></a>
+                </span>
+
+
+
+            </div>
+        </div>
+        <div class="col-12 col-lg-9">
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#journals"
+                        type="button" role="tab" aria-controls="journals" aria-selected="true">Journals</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#publications"
+                        type="button" role="tab" aria-controls="publications" aria-selected="false">Conferences</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#bookchapters"
+                        type="button" role="tab" aria-controls="bookchapters" aria-selected="false">Book
+                        Chapters</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="journals" role="tabpanel" aria-labelledby="journals-tab">
+                    <div class="paper-card">
+                        <ul>
+                            <li>2021</li>
+                            <li><b>Applying User Centred Design to Improve the Design of Genomic User Interfaces</b>
+                            </li>
+                            <li class="autores">Alberto García S., Carlos Iñiguez-Jarrín, Oscar Pastor López, Daniel
+                                Gonzalez-Ibea, Estela Pérez-Román, Carles Borredà, Javier Terol, Victoria Ibanez, Manuel
+                                Talón:</li>
+                            <li class="autores">ENASE 2021: 25-35</li>
+                        </ul>
+                    </div>
+               
+                    <div class="paper-card">
+                        <ul>
+                            <li>2021</li>
+                            <li><b>CitrusGenome: Applying User Centered Design for Evaluating the Usability of Genomic
+                                    User Interfaces</b></li>
+                            <li class="autores">C Alberto García S., Carlos Iñiguez-Jarrín, Oscar Pastor López, Daniel
+                                Gonzalez-Ibea, Estela Pérez-Román, Carles Borredà, Javier Terol, Victoria Ibanez, Manuel
+                                Talón</li>
+                            <li class="autores">ENASE (Selected Papers) 2021: 213-240</li>
+                        </ul>
+                    </div>
+                    <div class="paper-card">
+                        <ul>
+                            <li>2020</li>
+                            <li><b>Improvement of Usability in User Interfaces for Massive Data Analysis: An Empirical
+                                    Study</b></li>
+                            <li class="autores">Carlos Iñiguez-Jarrín; José Ignacio Panach; Oscar Pastor López;</li>
+                            <li class="autores">InPress. DOI: 10.1007/s11042-019-08456-6</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="publications" role="tabpanel" aria-labelledby="publications-tab">
+
+                    <div class="paper-card">
+                        <ul>
+                            <li>2023</li>
+                            <li><b>An IoT-Based Prototype to Support the Monitoring of Vital Signs in Older Adults</b>
+                            </li>
+                            <li class="autores">Carlos Iñiguez;Julio Sandobalín; Diana Yacchirema</li>
+                            <li class="autores">CISTI 2023</li>
+                        </ul>
+                    </div>
+
+                    <div class="paper-card">
+                        <ul>
+                            <li>2023</li>
+                            <li><b>Modeling Cloud Infrastructure Provisioning: A Software-as-a-Service Approach</b></li>
+                            <li class="autores">Julio Sandobalín; Carlos Iñiguez; </li>
+                            <li class="autores">Revista Politécnica</li>
+                        </ul>
+                    </div>
+
+                    <div class="paper-card">
+                        <ul>
+                            <li>2022</li>
+                            <li><b>Web User Interface Design of a Visual Editor for CloudInfrastructure Modeling</b>
+                            </li>
+                            <li class="autores">Carlos Iñiguez; Julio Sandobalín</li>
+                            <li class="autores">Revista Politécnica</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="paper-card">
+                        <ul>
+                            <li>2019</li>
+                            <li><b>User Centered Design for Biomedical Literature Search User Interfaces</b></li>
+                            <li class="autores">Carlos Iñiguez-Jarrín;José Ignacio Panach;Oscar Pastor López;</li>
+                        </ul>
+                    </div>
+                    <div class="paper-card">
+                        <ul>
+                            <li>2018</li>
+                            <li><b>Defining Interaction Design Patterns to Extract Knowledge from Big Data.</b></li>
+                            <li class="autores">Carlos Iñiguez-Jarrín;José Ignacio Panach;Oscar Pastor López;</li>
+                        </ul>
+                    </div>
+                    <div class="paper-card">
+                        <ul>
+                            <li>2018</li>
+                            <li><b>Designing a Tool for Linking Genetic Variations to Diseases</b></li>
+                            <li class="autores">C. E. Iñiguez-Jarrín</li>
+                        </ul>
+                    </div>
+                    <div class="paper-card">
+                        <ul>
+                            <li>2017</li>
+                            <li><b>GenDomus: Interactive and Collaboration Mechanisms for Diagnosing Genetic
+                                    Diseases</b></li>
+                            <li class="autores">Carlos Iñiguez-Jarrín;Alberto García S.;José Fabián Reyes Román;Oscar
+                                Pastor López;</li>
+                        </ul>
+                    </div>
+                    <div class="paper-card">
+                        <ul>
+                            <li>2017</li>
+                            <li><b>GenesLove.Me: A Model-based Web-application for Direct-to-consumer Genetic Tests</b>
+                            </li>
+                            <li class="autores">José Fabián Reyes Román;Carlos Iñiguez-Jarrín;Oscar Pastor López;</li>
+                        </ul>
+                    </div>
+                    <div class="paper-card">
+                        <ul>
+                            <li>2017</li>
+                            <li><b>GeIS based on Conceptual Models for the risk assessment of Neuroblastoma.</b></li>
+                            <li class="autores">Verónica Burriel;José Fabián Reyes Román;Ana Heredia Casanoves;Carlos
+                                Iñiguez-Jarrín;Ana León</li>
+                        </ul>
+                    </div>
+                    <div class="paper-card">
+                        <ul>
+                            <li>2016</li>
+                            <li><b>A conceptual modelling-based approach to generate data value through the end-user
+                                    interactions: A case study in the genomics domain</b></li>
+                            <li class="autores">Carlos Iñiguez</li>
+                            <li class="autores">PoEM Doctoral Consortium</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="bookchapters" role="tabpanel" aria-labelledby="bookchapters-tab">
+                    <div class="paper-card">
+                        <ul>
+                            <li>2018</li>
+                            <li><b>User Interface Design for Searching Biomedical Literature.</b></li>
+                            <li class="autores">Carlos Iñiguez-Jarrín;José Ignacio Panach;Oscar Pastor López;</li>
+                        </ul>
+                    </div>
+                    <div class="paper-card">
+                        <ul>
+                            <li>2018</li>
+                            <li><b>Genomic tools*: Web-applications based on conceptual models for the genomic
+                                    diagnosis</b></li>
+                            <li class="autores">José F. Reyes Román, Carlos Iñiguez-Jarrín, Óscar Pastor</li>
+                        </ul>
+                    </div>
+                    <div class="paper-card">
+                        <ul>
+                            <li>2018</li>
+                            <li><b>Guidelines for Designing User Interfaces to Analyze Genetic Data. Case of Study:
+                                    GenDomus</b></li>
+                            <li class="autores">C. Iñiguez-Jarrín, García S., et al.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

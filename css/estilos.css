@@ -1,0 +1,74 @@
+/* fuentes */
+@font-face {
+  font-family: "Roboto-regular";
+  src: url(../font/Roboto-Regular.ttf);
+}
+body {
+  background-color: #f5f7f8;
+  font-family: "Roboto-regular";
+  font-size: 14px;
+  color: #707070;
+}
+.text-minimal { font-size: 0.8rem;}
+a{
+    text-decoration: none;
+}
+.color2 {
+  background-color: #e6e4e4;
+}
+.color3 {
+  color: #ab5139;
+}
+
+.autores {
+  font-family: "Roboto-regular";
+  font-size: 10px;
+  color: #707070;
+}
+.menu {
+  color: #ab5139;
+  font-family: "Roboto-regular";
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.titulo {
+  font-family: "Roboto-regular";
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#carta {
+  border-radius: 10px;
+}
+
+.paper-card{
+  margin-top: 20px;
+
+}
+.paper-card ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.paper-card ul li{
+  padding-left: 16px;;
+}
+
+.main-menu ul {list-style-type: none; padding: 0px;}
+.main-menu ul li{ border-top: 1px solid #707070; text-align: left; padding: 3px;}
+.main-menu ul li a{text-decoration: none; text-align: left;}
+
+.time-card{
+  width: 180px;
+  height: 150px;
+  text-align: center;
+  background-color: hsl(240deg, 10%, 95%);
+  padding: 3px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.time-card>div>p:first-child{ color: green; font-weight: bold;}
+.text-justify{ text-align: justify;}
